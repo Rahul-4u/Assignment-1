@@ -27,7 +27,7 @@
 
 .banner-container{
 max-width: 1440px;
-height: 652px;
+max-height: 652px;
 margin: 30px auto;
 
 background-image: url(imge/Hero-bg.png);
@@ -35,8 +35,8 @@ background-image: url(imge/Hero-bg.png);
 }
 
 .banner-content{
-width: 998px;
-height: 582px;
+max-width: 998px;
+max-height: 582px;
 margin: 26px  auto 44px auto;
 top: 157px;
 bottom: 4506px;
