@@ -1,0 +1,257 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Inter;
+    
+}
+
+.body-font {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+  
+}
+
+/*----------hero section-----*/
+
+.banner-container{
+width: 1440px;
+height: 652px;
+margin: 30px auto;
+
+background-image: url(imge/Hero-bg.png);
+
+}
+
+.banner-content{
+width: 998px;
+height: 582px;
+margin: 26px  auto 44px auto;
+top: 157px;
+bottom: 4506px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+}
+
+.banner-img{
+    width: 240.28px;
+    height: 240px;
+    margin: 26px auto;
+}
+
+.banner-text{
+/* Frame 3 */
+position: static;
+width: 998px;
+height: 310px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+margin: 32px 0px;
+}
+
+.banner-text h1{
+    
+    color: rgb(13, 19, 33);
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 68px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.banner-text p
+    {
+    color: rgb(13, 19, 33);
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 24px;
+}
+.banner-content button{
+width: 208px;
+height: 66px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 21px 24px 21px 24px;
+
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+border-radius: 5px;
+}
+.banner-content button a{
+    color: rgb(250, 250, 250);
+    font-family: Inter;
+
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+
+/*-----------development-content-------*/
+
+.development-container{
+    /* Frame 13 */
+
+width: 1140px;
+height: 1395px;
+margin: 80px auto;
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+padding: 80px 97px 80px 97px;
+background: rgba(13, 19, 33, 0.02);
+
+}
+.development-content{
+    /* Frame 12 */
+position: static;
+max-width: 946px;
+height: 1235px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 10px;
+}
+
+.development-text{
+
+    max-width: 852px;
+    height: 115px;
+    margin: 0 auto;
+}
+
+.development-text h1{
+    text-align: center;
+    color: rgb(13, 19, 33);
+
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+letter-spacing: 0%;
+text-align: center;
+margin: 12px 0;
+}
+.development-text p{
+    color: rgb(13, 19, 33);
+
+font-size: 18px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+margin: 12px 0;
+}
+
+.development-item{
+   
+width: 946px;
+height: 336px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 48px;
+align-self: stretch;
+margin: 32px 0px;
+}
+
+ .development-left-items{
+    width: 850px;
+    height: 240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.development-left-1st{
+    width: 477px;
+    height: 220px;
+    margin: 0 auto;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: left;
+}
+
+.development-left-1st h1{
+    color: rgba(13, 19, 33, 0.7);
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+}
+.development-left-1st p{
+    color: rgb(13, 19, 33);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+
+.development-left-2nd{
+    width: 259px;
+    height: 220px;
+    border: 1px solid rgb(2, 2, 2);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.development-left-1st button{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding: 6px 15px;
+    border-radius: 5px;
+}
+
+.development-left-1st button a{
+    color: black;
+}
