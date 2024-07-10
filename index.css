@@ -17,7 +17,7 @@
 }
 
 .body-font {
-  font-family: "Noto Sans", sans-serif;
+  font-family: Inter;
   font-optical-sizing: auto;
   
   
@@ -45,6 +45,7 @@ flex-direction: column;
 justify-content: flex-start;
 align-items: center;
 padding: 0px;
+
 }
 
 .banner-img{
@@ -120,7 +121,7 @@ text-align: center;
 /*-----------development-content-------*/
 
 .development-container{
-width: 1140px;
+max-width: 1140px;
 height: 1150px;
 margin: 0 auto;
 display: flex;
@@ -458,10 +459,11 @@ margin-bottom: 15px;
 
 /*---------footer nav--------*/
 .footer-nav{
-width: 1440px;
+max-width: 1440px;
 height: 100px;
 margin: 30px auto;
 padding: 32px 150px;
+border: 1px solid red;
 
 
 }
@@ -471,14 +473,19 @@ padding: 32px 150px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid red;
 }
 .footer-icon {
-    position: relative;
+    
+    border: 1px solid red;
     width: 36px;
     height: 36px;
     font-size: 36px;
     display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
     gap: 18px;
-    border: 1px;
+    
 
 }
