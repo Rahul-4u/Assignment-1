@@ -473,11 +473,10 @@ border: 1px solid red;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid red;
+
 }
 .footer-icon {
     
-    border: 1px solid red;
     width: 36px;
     height: 36px;
     font-size: 36px;
